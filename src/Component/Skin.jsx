@@ -1,5 +1,5 @@
 // import React from 'react';
-// import d5 from '../images/d5.PNG';
+// import d5 from '../images/d5.png';
 // import Skin1 from './Skin1';
 
 
@@ -61,7 +61,7 @@
 // export default Skin;
 
 import React from 'react';
-import d5 from '../images/d5.PNG';
+import d5 from '../images/d5.png';
 import Skin1 from './Skin1';
 
 const Skin = () => {

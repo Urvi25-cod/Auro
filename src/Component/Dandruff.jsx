@@ -1,5 +1,5 @@
 import React from 'react';
-import d5 from '../images/d5.PNG';
+import d5 from '../images/d5.png';
 import Dandruff1 from './Dandruff1';
 
 
