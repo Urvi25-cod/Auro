@@ -1,0 +1,140 @@
+// import React from 'react';
+// import d5 from '../images/d5.PNG';
+// import HairGrowths from './HairGrowths';
+
+
+// const HairGrowth = () => {
+//   return (
+//     <>
+//     <div className="bg-white py-12">
+//       <div className="container mx-auto px-4">
+//         {/* Heading and Description */}
+//         <div className="text-center mb-8">
+//           <h2 className="text-3xl font-semibold text-gray-800">
+//             Hair Growth Treatment
+//           </h2>
+//           <p className="text-gray-600 mt-2">
+//             Hair Growth Treatment Naturally Restores Strong, Healthy Hair By
+//             Stimulating Follicles And Improving Scalp Health. Homeopathy
+//             Addresses Hair Loss, Thinning, And Dandruff Without Side Effects.
+//             Personalized Remedies Strengthen Hair From Within, Promoting
+//             Long-Term Regrowth. Experience A Safe, Holistic Approach To
+//             Achieving Fuller, Healthier Hair With Homeopathic Treatment.
+//           </p>
+//         </div>
+
+//         {/* Banner */}
+//         <div
+//                             className="container mx-auto px-12 py-24 md:py-14 rounded-3xl flex flex-col md:flex-row items-center justify-between shadow-md relative"
+//                             style={{ backgroundColor: '#A5487D' }} // Consistent background color
+//                         >
+//                             {/* Background Image */}
+//                             <div className="absolute inset-0 opacity-30">
+//                                 <img
+//                                     src={d5}
+//                                     alt=""
+//                                     className="w-full h-full object-cover"
+//                                 />
+//                             </div>
+        
+//                             {/* Content Overlay */}
+//                             <div className="relative z-10 text-center md:text-left mb-4 md:mb-0">
+//                                 <h2 className="text-2xl font-bold text-white">Start Now Your</h2>
+//                                 <p className="text-xl text-white">Consult Your Health</p>
+//                             </div>
+        
+//                             {/* Right Side: Button */}
+//                             <div className="flex space-x-4">
+//                                 <button
+//                                     className="bg-white text-[#A5487D] font-bold py-2 px-6 rounded-full hover:bg-gray-100 hover:text-[#A5487D]"
+//                                 >
+//                                     Book Consultation
+//                                 </button>
+//                                 <button className="bg-white text-[#A5487D] font-bold py-2 px-6 rounded-full hover:bg-gray-100 hover:text-[#A5487D]">
+//                 Book An Appointment
+//               </button>
+//                             </div>
+//                         </div>
+//       </div>
+//     </div>
+//     <HairGrowths/>
+//     </>
+//   );
+// };
+
+// export default HairGrowth;
+
+
+import React from 'react';
+import d5 from '../images/d5.PNG';
+import HairGrowths from './HairGrowths';
+
+const HairGrowth = () => {
+  return (
+    <>
+      <div className="bg-white py-8 md:py-12">
+        <div className="container mx-auto px-4 md:px-8">
+          {/* Heading and Description */}
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">
+              Hair Growth Treatment
+            </h2>
+            <p className="text-gray-600 mt-2 text-sm md:text-base">
+              Hair Growth Treatment Naturally Restores Strong, Healthy Hair By
+              Stimulating Follicles And Improving Scalp Health. Homeopathy
+              Addresses Hair Loss, Thinning, And Dandruff Without Side Effects.
+              Personalized Remedies Strengthen Hair From Within, Promoting
+              Long-Term Regrowth. Experience A Safe, Holistic Approach To
+              Achieving Fuller, Healthier Hair With Homeopathic Treatment.
+            </p>
+          </div>
+
+          {/* Banner */}
+          <div
+            className="container mx-auto px-12 py-24 md:py-14 rounded-3xl flex flex-col md:flex-row items-center justify-between  relative "
+            style={{ backgroundColor: '#A5487D' }}
+          >
+            {/* Background Image */}
+            <div className="absolute inset-0 opacity-30 ">
+              <img
+                src={d5}
+                alt="cock"
+                className="w-full h-full object-cover"
+                // style={{ backgroundColor:'#A5487D' }}
+                
+              />
+            </div>
+
+            {/* Content Overlay */}
+            <div className="relative z-10 text-center md:text-left mb-4 md:mb-0">
+              <h2 className="text-xl md:text-2xl font-bold text-white">
+                Start Now Your
+              </h2>
+              <p className="text-lg md:text-xl text-white">Consult Your Health</p>
+            </div>
+
+            {/* Right Side: Buttons */}
+            <div className="flex flex-col md:flex-row space-y-4 md:space-x-4">
+              <button
+                className="bg-white text-[#A5487D] font-bold py-2 px-6 rounded-full hover:bg-gray-100 hover:text-[#A5487D] w-full md:w-auto"
+              >
+                Book Consultation
+              </button>
+              {/* <button className="bg-white text-[#A5487D] font-bold py-2 px-6 rounded-full hover:bg-gray-100 hover:text-[#A5487D] w-full md:w-auto">
+                Book An Appointment
+              </button> */}
+               <button
+                className="bg-white text-[#A5487D] font-bold py-2 px-6 rounded-full hover:bg-gray-100 hover:text-[#A5487D]"
+              >
+                Book Consultation
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <HairGrowths />
+    </>
+  );
+};
+
+export default HairGrowth;
